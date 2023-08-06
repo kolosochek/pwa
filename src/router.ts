@@ -14,7 +14,7 @@ import { title } from '@thepassle/app-tools/router/plugins/title.js';
 
 import './pages/app-home.js';
 
-const baseURL: string = "https://kolosochek.github.io/pwa/"//(import.meta as any).env.BASE_URL;
+const baseURL: string = document.baseURI;
 // debug
 console.log(baseURL);
 console.log(`baseURL`);
